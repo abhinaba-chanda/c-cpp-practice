@@ -13,6 +13,8 @@ build:
 test: build
 	$(CC) $(CFLAGS) tests/test_c.c -o bin/test_c && ./bin/test_c
 	$(CXX) $(CXXFLAGS) tests/test_cpp.cpp -o bin/test_cpp && ./bin/test_cpp
+	$(MAKE) -C calculator test
 
 clean:
 	rm -rf bin
+	$(MAKE) -C calculator clean

@@ -17,6 +17,12 @@
 | [`cpp/bank_account.cpp`](cpp/bank_account.cpp) | C++ | Deposits and withdraws from a bank account | classes, exceptions |
 | [`cpp/fibonacci.cpp`](cpp/fibonacci.cpp) | C++ | Lists the first n Fibonacci numbers | vectors, loops |
 
+## 🧮 Mini projects
+
+| Project | Language | What it does | Concepts practiced |
+|---|---|---|---|
+| [`calculator/`](calculator) | C | Command line calculator for `+ - * / %` with decimals and a divide-by-zero check | header files, `switch`, Makefiles, tests |
+
 ## ▶️ How to run
 
 ```bash
@@ -28,7 +34,7 @@ g++ cpp/student_grades.cpp -o grades && ./grades
 
 ## ✅ Tests
 
-Run `make test` to compile every program and run the C and C++ assertion tests. GitHub Actions does the same on each push and pull request. Run `make clean` to remove the binaries.
+Run `make test` to compile every program and run the C and C++ assertion tests, plus the calculator tests. GitHub Actions does the same on each push and pull request. Run `make clean` to remove the binaries.
 
 ## 🧠 What I learned
 - How C and C++ handle input/output differently (`scanf` vs `cin`)
