@@ -3,3 +3,5 @@ bin/
 *.exe
 *.out
 core
+calculator/calc
+calculator/test_calc
